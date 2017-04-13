@@ -15,12 +15,14 @@ CVS
 *.log
 *~.nib
 *.moved-aside
-Example/*.xcodeproj/*
-!Example/*.xcodeproj/project.pbxproj
-Example/*.xcworkspace/*
-!Example/*.xcworkspace/contents.xcworkspacedata
-!xcshareddata
-*.xccheckout
+#Example/*.xcodeproj/*
+#!Example/*.xcodeproj/project.pbxproj
+#Example/*.xcworkspace/*
+#!Example/*.xcworkspace/contents.xcworkspacedata
+#!xcshareddata
+#*.xccheckout
+*xcuserdatad
+*xcuserdata
 
 #Project files
 [Bb]uild/
@@ -31,5 +33,5 @@ DerivedData/
 
 #CocoaPods
 #Pods
-Example/Pods/*.xcodeproj/*
-!Example/Pods/*.xcodeproj/project.pbxproj
+#Example/Pods/*.xcodeproj/*
+#!Example/Pods/*.xcodeproj/project.pbxproj
