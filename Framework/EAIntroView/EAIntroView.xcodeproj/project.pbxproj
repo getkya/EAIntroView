@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5D2AE6CE1E9FC87600F6FD23 /* EAIntroView-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6CC1E9FC87600F6FD23 /* EAIntroView-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2AE6D21E9FC94900F6FD23 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6B51E9FC75700F6FD23 /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2AE6D31E9FC95500F6FD23 /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6B31E9FC75700F6FD23 /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2AE6D41E9FC96100F6FD23 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2AE6B41E9FC75700F6FD23 /* EAIntroPage.m */; };
+		5D2AE6D51E9FC96500F6FD23 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2AE6B61E9FC75700F6FD23 /* EAIntroView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +21,7 @@
 		5D2AE6B61E9FC75700F6FD23 /* EAIntroView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = ../../EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
 		5D2AE6BF1E9FC7DE00F6FD23 /* EAIntroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
 		5D2AE6C01E9FC7DE00F6FD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D2AE6CA1E9FC87600F6FD23 /* EAIntroView-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "EAIntroView-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2AE6CA1E9FC87600F6FD23 /* EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2AE6CC1E9FC87600F6FD23 /* EAIntroView-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-iOS.h"; sourceTree = "<group>"; };
 		5D2AE6CD1E9FC87600F6FD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +53,7 @@
 		5D2AE6BD1E9FC7DE00F6FD23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D2AE6CA1E9FC87600F6FD23 /* EAIntroView-iOS.framework */,
+				5D2AE6CA1E9FC87600F6FD23 /* EAIntroView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,15 +84,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2AE6CE1E9FC87600F6FD23 /* EAIntroView-iOS.h in Headers */,
+				5D2AE6D21E9FC94900F6FD23 /* EAIntroView.h in Headers */,
+				5D2AE6D31E9FC95500F6FD23 /* EAIntroPage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D2AE6C91E9FC87600F6FD23 /* EAIntroView-iOS */ = {
+		5D2AE6C91E9FC87600F6FD23 /* EAIntroView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D2AE6CF1E9FC87600F6FD23 /* Build configuration list for PBXNativeTarget "EAIntroView-iOS" */;
+			buildConfigurationList = 5D2AE6CF1E9FC87600F6FD23 /* Build configuration list for PBXNativeTarget "EAIntroView" */;
 			buildPhases = (
 				5D2AE6C51E9FC87600F6FD23 /* Sources */,
 				5D2AE6C61E9FC87600F6FD23 /* Frameworks */,
@@ -99,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "EAIntroView-iOS";
+			name = EAIntroView;
 			productName = "EAIntroView-iOS";
-			productReference = 5D2AE6CA1E9FC87600F6FD23 /* EAIntroView-iOS.framework */;
+			productReference = 5D2AE6CA1E9FC87600F6FD23 /* EAIntroView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D2AE6C91E9FC87600F6FD23 /* EAIntroView-iOS */,
+				5D2AE6C91E9FC87600F6FD23 /* EAIntroView */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2AE6D41E9FC96100F6FD23 /* EAIntroPage.m in Sources */,
+				5D2AE6D51E9FC96500F6FD23 /* EAIntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +308,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D2AE6CF1E9FC87600F6FD23 /* Build configuration list for PBXNativeTarget "EAIntroView-iOS" */ = {
+		5D2AE6CF1E9FC87600F6FD23 /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D2AE6D01E9FC87600F6FD23 /* Debug */,
 				5D2AE6D11E9FC87600F6FD23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

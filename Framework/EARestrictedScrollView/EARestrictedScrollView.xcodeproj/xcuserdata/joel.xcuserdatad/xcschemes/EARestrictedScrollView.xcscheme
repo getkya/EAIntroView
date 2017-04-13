@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5D2AE6BB1E9FC7DE00F6FD23"
-               BuildableName = "EAIntroView.framework"
-               BlueprintName = "EAIntroView"
-               ReferencedContainer = "container:EAIntroView.xcodeproj">
+               BlueprintIdentifier = "5D2AE6EE1E9FD0A500F6FD23"
+               BuildableName = "EARestrictedScrollView.framework"
+               BlueprintName = "EARestrictedScrollView"
+               ReferencedContainer = "container:EARestrictedScrollView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D2AE6BB1E9FC7DE00F6FD23"
-            BuildableName = "EAIntroView.framework"
-            BlueprintName = "EAIntroView"
-            ReferencedContainer = "container:EAIntroView.xcodeproj">
+            BlueprintIdentifier = "5D2AE6EE1E9FD0A500F6FD23"
+            BuildableName = "EARestrictedScrollView.framework"
+            BlueprintName = "EARestrictedScrollView"
+            ReferencedContainer = "container:EARestrictedScrollView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5D2AE6BB1E9FC7DE00F6FD23"
-            BuildableName = "EAIntroView.framework"
-            BlueprintName = "EAIntroView"
-            ReferencedContainer = "container:EAIntroView.xcodeproj">
+            BlueprintIdentifier = "5D2AE6EE1E9FD0A500F6FD23"
+            BuildableName = "EARestrictedScrollView.framework"
+            BlueprintName = "EARestrictedScrollView"
+            ReferencedContainer = "container:EARestrictedScrollView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

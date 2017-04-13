@@ -4,20 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EAIntroView-iOS.xcscheme_^#shared#^_</key>
+		<key>EARestrictedScrollView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5D2AE6BB1E9FC7DE00F6FD23</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5D2AE6C91E9FC87600F6FD23</key>
+		<key>5D2AE6EE1E9FD0A500F6FD23</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D2AE6C91E9FC87600F6FD23"
-               BuildableName = "EAIntroView-iOS.framework"
-               BlueprintName = "EAIntroView-iOS"
+               BuildableName = "EAIntroView.framework"
+               BlueprintName = "EAIntroView"
                ReferencedContainer = "container:EAIntroView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D2AE6C91E9FC87600F6FD23"
-            BuildableName = "EAIntroView-iOS.framework"
-            BlueprintName = "EAIntroView-iOS"
+            BuildableName = "EAIntroView.framework"
+            BlueprintName = "EAIntroView"
             ReferencedContainer = "container:EAIntroView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D2AE6C91E9FC87600F6FD23"
-            BuildableName = "EAIntroView-iOS.framework"
-            BlueprintName = "EAIntroView-iOS"
+            BuildableName = "EAIntroView.framework"
+            BlueprintName = "EAIntroView"
             ReferencedContainer = "container:EAIntroView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
