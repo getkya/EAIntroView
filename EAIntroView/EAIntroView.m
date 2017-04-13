@@ -4,7 +4,7 @@
 //  Copyright (c) 2013-2015 Evgeny Aleksandrov. License: MIT.
 
 #import "EAIntroView.h"
-#import "EARestrictedScrollView.h"
+#import <EARestrictedScrollView/EARestrictedScrollView.h>
 
 @interface EAIntroView()
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2250201E9FE5B000DF2FC4 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D22501B1E9FE56400DF2FC4 /* EARestrictedScrollView.framework */; };
 		5D2AE6CE1E9FC87600F6FD23 /* EAIntroView-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6CC1E9FC87600F6FD23 /* EAIntroView-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2AE6D21E9FC94900F6FD23 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6B51E9FC75700F6FD23 /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2AE6D31E9FC95500F6FD23 /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2AE6B31E9FC75700F6FD23 /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,7 +15,46 @@
 		5D2AE6D51E9FC96500F6FD23 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2AE6B61E9FC75700F6FD23 /* EAIntroView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5D2250181E9FE56400DF2FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44E3B210C9336065045EDC5EDBC2C158;
+			remoteInfo = EAIntroView;
+		};
+		5D22501A1E9FE56400DF2FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8801827BC0C1C73ED15AA1119C1DF3F0;
+			remoteInfo = EARestrictedScrollView;
+		};
+		5D22501C1E9FE56400DF2FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81877E4B57AE44EE66EE5A69D242E1BE;
+			remoteInfo = "Pods-EAIntroView";
+		};
+		5D22501E1E9FE56400DF2FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F57784F2008400F529E5EFB092E0AAF;
+			remoteInfo = SMPageControl;
+		};
+		5D2250231E9FE6A900DF2FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 822DA31A6A34C7EF41E1EC7A5EF8FC2F;
+			remoteInfo = EAIntroView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../../Example/Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		5D2AE6B31E9FC75700F6FD23 /* EAIntroPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = ../../EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
 		5D2AE6B41E9FC75700F6FD23 /* EAIntroPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = ../../EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
 		5D2AE6B51E9FC75700F6FD23 /* EAIntroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = ../../EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
@@ -31,12 +71,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2250201E9FE5B000DF2FC4 /* EARestrictedScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2250121E9FE56400DF2FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2250191E9FE56400DF2FC4 /* EAIntroView.framework */,
+				5D22501B1E9FE56400DF2FC4 /* EARestrictedScrollView.framework */,
+				5D22501D1E9FE56400DF2FC4 /* Pods_EAIntroView.framework */,
+				5D22501F1E9FE56400DF2FC4 /* SMPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D2AE6AC1E9FC74800F6FD23 = {
 			isa = PBXGroup;
 			children = (
@@ -47,6 +99,7 @@
 				5D2AE6BE1E9FC7DE00F6FD23 /* EAIntroView */,
 				5D2AE6CB1E9FC87600F6FD23 /* EAIntroView-iOS */,
 				5D2AE6BD1E9FC7DE00F6FD23 /* Products */,
+				5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +157,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5D2250241E9FE6A900DF2FC4 /* PBXTargetDependency */,
 			);
 			name = EAIntroView;
 			productName = "EAIntroView-iOS";
@@ -134,12 +188,49 @@
 			mainGroup = 5D2AE6AC1E9FC74800F6FD23;
 			productRefGroup = 5D2AE6BD1E9FC7DE00F6FD23 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D2250121E9FE56400DF2FC4 /* Products */;
+					ProjectRef = 5D2250111E9FE56400DF2FC4 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5D2AE6C91E9FC87600F6FD23 /* EAIntroView */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5D2250191E9FE56400DF2FC4 /* EAIntroView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EAIntroView.framework;
+			remoteRef = 5D2250181E9FE56400DF2FC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D22501B1E9FE56400DF2FC4 /* EARestrictedScrollView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EARestrictedScrollView.framework;
+			remoteRef = 5D22501A1E9FE56400DF2FC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D22501D1E9FE56400DF2FC4 /* Pods_EAIntroView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_EAIntroView.framework;
+			remoteRef = 5D22501C1E9FE56400DF2FC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D22501F1E9FE56400DF2FC4 /* SMPageControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SMPageControl.framework;
+			remoteRef = 5D22501E1E9FE56400DF2FC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D2AE6C81E9FC87600F6FD23 /* Resources */ = {
@@ -162,6 +253,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D2250241E9FE6A900DF2FC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EAIntroView;
+			targetProxy = 5D2250231E9FE6A900DF2FC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5D2AE6B11E9FC74800F6FD23 /* Debug */ = {
